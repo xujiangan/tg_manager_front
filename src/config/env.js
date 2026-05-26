@@ -12,13 +12,8 @@ let baseImgPath;
 
 if (process.env.NODE_ENV == 'development') {
 	baseUrl = '';
-	// baseUrl = 'http://localhost:8012/api';
     baseImgPath = '/img/';
 }else{
-	// baseUrl = 'http://47.97.1.31:8080';
-    // baseImgPath = '//elm.cangdu.org/img/';
-
-	// baseUrl = 'http://47.97.1.31:8091/zf/api';
 	baseUrl = '';
     baseImgPath = '/img/';
 }
