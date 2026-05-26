@@ -11,7 +11,7 @@ let routerMode = 'hash';
 let baseImgPath;
 
 if (process.env.NODE_ENV == 'development') {
-	baseUrl = 'http://47.97.1.31:8090/zf/api';
+	baseUrl = '';
 	// baseUrl = 'http://localhost:8012/api';
     baseImgPath = '/img/';
 }else{
@@ -19,7 +19,7 @@ if (process.env.NODE_ENV == 'development') {
     // baseImgPath = '//elm.cangdu.org/img/';
 
 	// baseUrl = 'http://47.97.1.31:8091/zf/api';
-	baseUrl = 'http://47.97.1.31:8090/zf/api';
+	baseUrl = '';
     baseImgPath = '/img/';
 }
 
